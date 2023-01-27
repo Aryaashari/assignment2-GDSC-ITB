@@ -16,9 +16,29 @@
     color: #F3EFE0;
 }
 
+.section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-header .section-line {
+    background-color: #222222;
+    width: 100%;
+    height: 5px;
+    margin: 0px 20px;
+}
+
+.section-header .section-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
 
 main {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
@@ -85,6 +105,11 @@ main {
     border: 3px solid #22A39F;
     color: #22A39F;
 } 
+
+
+
+
+
 
 /* X-Small devices */
 @media (max-width: 575.98px) {
