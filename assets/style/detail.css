@@ -1,3 +1,7 @@
+main {
+    margin-bottom: 90px;
+}
+
 .detail .row {
     justify-content: center;
     flex-wrap: nowrap;

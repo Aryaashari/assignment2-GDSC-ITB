@@ -24,7 +24,7 @@ body {
     color: #22A39F;
 } 
 
-#navbar {
+.navbar {
     padding: 20px;
     background-color: #222222;
     display: flex;
@@ -32,7 +32,7 @@ body {
     position: relative;
 }
 
-#navbar > .nav-title {
+.navbar > .nav-title {
     font-size: 26px;
     margin: auto;
     justify-items: end;
@@ -135,6 +135,25 @@ main {
 
 
 
+footer {
+    background-color: #222222;
+    padding: 25px;
+    left: 0;
+    bottom: 0;
+    /* position: absolute; */
+    /* width: auto; */
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #F7F7F7;
+    text-align: center;
+    font-size: 12px;
+}
+
+
 
 /* X-Small devices */
 @media (max-width: 575.98px) {
@@ -174,7 +193,7 @@ main {
         padding: 8px 25px;
     }
 
-    
+
     .card {
         width: 35%;
     }
