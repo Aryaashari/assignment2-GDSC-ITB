@@ -138,6 +138,13 @@ main {
 
 /* X-Small devices */
 @media (max-width: 575.98px) {
+
+    .button {
+        padding: 5px 40px;
+        font-size: 14px;
+    }
+
+
     .row {
         justify-content: center;
     }
@@ -157,16 +164,16 @@ main {
         font-size: 16px;
     }
 
-    .card-footer .card-footer-button {
-        padding: 5px 40px;
-        font-size: 14px;
-    }
 }
 
 
 
 /* Samll devices */
 @media (min-width: 575.99px) and (max-width: 767.98px) { 
+    .button {
+        padding: 8px 25px;
+    }
+
     
     .card {
         width: 35%;
@@ -178,10 +185,6 @@ main {
 
     .card-footer .card-footer-text {
         font-size: 18px;
-    }
-
-    .card-footer .card-footer-button {
-        padding: 8px 25px;
     }
 
 }
