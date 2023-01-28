@@ -8,6 +8,22 @@ body {
     background-color: #434242;
 }
 
+.button {
+    background-color: #22A39F;
+    padding: 8px 45px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid transparent;
+    transition: all .3s;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 3px solid #22A39F;
+    color: #22A39F;
+} 
+
 #navbar {
     padding: 20px;
     background-color: #222222;
@@ -99,22 +115,6 @@ main {
     font-weight: 600;
     color: #222222;
 }
-
-.card-footer .card-footer-button {
-    background-color: #22A39F;
-    padding: 8px 45px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    border: 3px solid transparent;
-    transition: all .3s;
-}
-
-.card-footer .card-footer-button:hover {
-    background-color: transparent;
-    border: 3px solid #22A39F;
-    color: #22A39F;
-} 
 
 
 .back-button {
