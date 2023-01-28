@@ -11,13 +11,17 @@ body {
 #navbar {
     padding: 20px;
     background-color: #222222;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
 #navbar > .nav-title {
     font-size: 26px;
-    text-align: center;
+    margin: auto;
+    justify-items: end;
     font-family: 'Poppins', sans-serif;
-    color: #F3EFE0;
+    color: #F7F7F7;
 }
 
 .section-header {
@@ -111,6 +115,16 @@ main {
     border: 3px solid #22A39F;
     color: #22A39F;
 } 
+
+
+.back-button {
+    position: absolute;
+    left: 10;
+}
+
+.back-button > img {
+    width: 25px;
+}
 
 
 
